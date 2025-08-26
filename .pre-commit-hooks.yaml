@@ -1,7 +1,7 @@
 - id: sqlalchemy-check-deferred-columns-before-drop
   name: Check for deferred columns before drop
   description: 'Linter for SQLAlchemy migrations'
-  entry: python deferred-loading-check.py
+  entry: deferred-loading-check.py
   language: python
   types: 
     - text
