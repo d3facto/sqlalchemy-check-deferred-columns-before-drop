@@ -8,7 +8,7 @@ Usage with `.pre-commit-config.yaml`:
 ------------------------------------
 repos:
 - repo: https://github.com/d3facto/sqlalchemy-check-deferred-columns-before-drop
-      rev: v0.5
+      rev: v0.6
       hooks:
       -   id: sqlalchemy-check-deferred-columns-before-drop
           name: DB migration - Check for deferred columns on drop
