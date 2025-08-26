@@ -1,0 +1,6 @@
+[project]
+name = "sqlalchemy-check-deferred-columns-before-drop"
+version = "0.3"
+
+[project.scripts]
+check-deffered-columns = "deferred_loading_check.main:main"
